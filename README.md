@@ -12,6 +12,17 @@ AI-powered Career Assistant Backend built with Node.js, Express.js, MongoDB, and
 * PDF Resume Upload & Parsing
 * MongoDB Integration
 
+## API Endpoints
+
+POST /api/auth/register
+POST /api/auth/login
+
+POST /api/resume/analyze
+POST /api/skill-gap/analyze
+
+POST /api/ai/interview-question/generate
+POST /api/ai/interview-question/evaluate
+
 ## Tech Stack
 
 * Node.js
@@ -23,6 +34,8 @@ AI-powered Career Assistant Backend built with Node.js, Express.js, MongoDB, and
 * PDF-Parse
 
 ## API Modules
+
+
 
 ### Authentication
 
